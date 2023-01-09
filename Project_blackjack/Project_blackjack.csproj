@@ -1,0 +1,247 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\image2.jpg" />
+    <None Remove="images\Poker-PNG-Clipart.png" />
+    <None Remove="images\table.jpg" />
+    <None Remove="images\table.png" />
+    <None Remove="Kaarten\back.jpg" />
+    <None Remove="Kaarten\harten 10.png" />
+    <None Remove="Kaarten\harten 2.png" />
+    <None Remove="Kaarten\harten 3.png" />
+    <None Remove="Kaarten\harten 4.png" />
+    <None Remove="Kaarten\harten 5.png" />
+    <None Remove="Kaarten\harten 6.png" />
+    <None Remove="Kaarten\harten 7.png" />
+    <None Remove="Kaarten\harten 8.png" />
+    <None Remove="Kaarten\harten 9.png" />
+    <None Remove="Kaarten\harten Aas.png" />
+    <None Remove="Kaarten\harten Boer.png" />
+    <None Remove="Kaarten\harten Heer.png" />
+    <None Remove="Kaarten\harten Vrouw.png" />
+    <None Remove="Kaarten\klaveren 10.png" />
+    <None Remove="Kaarten\klaveren 2.png" />
+    <None Remove="Kaarten\klaveren 3.png" />
+    <None Remove="Kaarten\klaveren 4.png" />
+    <None Remove="Kaarten\klaveren 5.png" />
+    <None Remove="Kaarten\klaveren 6.png" />
+    <None Remove="Kaarten\klaveren 7.png" />
+    <None Remove="Kaarten\klaveren 8.png" />
+    <None Remove="Kaarten\klaveren 9.png" />
+    <None Remove="Kaarten\klaveren Aas.png" />
+    <None Remove="Kaarten\klaveren Boer.png" />
+    <None Remove="Kaarten\klaveren Heer.png" />
+    <None Remove="Kaarten\klaveren Vrouw.png" />
+    <None Remove="Kaarten\ruiten 10.png" />
+    <None Remove="Kaarten\ruiten 2.png" />
+    <None Remove="Kaarten\ruiten 3.png" />
+    <None Remove="Kaarten\ruiten 4.png" />
+    <None Remove="Kaarten\ruiten 5.png" />
+    <None Remove="Kaarten\ruiten 6.png" />
+    <None Remove="Kaarten\ruiten 7.png" />
+    <None Remove="Kaarten\ruiten 8.png" />
+    <None Remove="Kaarten\ruiten 9.png" />
+    <None Remove="Kaarten\ruiten Aas.png" />
+    <None Remove="Kaarten\ruiten Boer.png" />
+    <None Remove="Kaarten\ruiten Heer.png" />
+    <None Remove="Kaarten\ruiten vrouw.png" />
+    <None Remove="Kaarten\schoppen 10.png" />
+    <None Remove="Kaarten\schoppen 2.png" />
+    <None Remove="Kaarten\schoppen 3.png" />
+    <None Remove="Kaarten\schoppen 4.png" />
+    <None Remove="Kaarten\schoppen 5.png" />
+    <None Remove="Kaarten\schoppen 6.png" />
+    <None Remove="Kaarten\schoppen 7.png" />
+    <None Remove="Kaarten\schoppen 8.png" />
+    <None Remove="Kaarten\schoppen 9.png" />
+    <None Remove="Kaarten\schoppen Aas.png" />
+    <None Remove="Kaarten\schoppen boer.png" />
+    <None Remove="Kaarten\schoppen Heer.png" />
+    <None Remove="Kaarten\schoppen Vrouw.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="images\image2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\table.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\back.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\harten 10.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\harten 2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\harten 3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\harten 4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\harten 5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\harten 6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\harten 7.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\harten 8.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\harten 9.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\harten Aas.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\harten Boer.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\harten Heer.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\harten Vrouw.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\klaveren 10.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\klaveren 2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\klaveren 4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\klaveren 5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\klaveren 6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\klaveren 7.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\klaveren 8.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\klaveren 9.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\klaveren Aas.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\klaveren Boer.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\klaveren Heer.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\klaveren Vrouw.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\klaveren 3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\ruiten 10.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\ruiten 2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\ruiten 3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\ruiten 4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\ruiten 5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\ruiten 6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\ruiten 7.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\ruiten 8.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\ruiten 9.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\ruiten Aas.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\ruiten Boer.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\ruiten Heer.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\ruiten Vrouw.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\schoppen 10.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\schoppen 2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\schoppen 3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\schoppen 4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\schoppen 5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\schoppen 6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\schoppen 7.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\schoppen 8.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\schoppen 9.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\schoppen Aas.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\schoppen Boer.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\schoppen Heer.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Kaarten\schoppen Vrouw.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\Poker-PNG-Clipart.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\table.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
